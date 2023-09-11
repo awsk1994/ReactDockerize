@@ -1,3 +1,16 @@
+# Docker
+
+## Tutorial
+
+https://www.freecodecamp.org/news/how-to-dockerize-a-react-application/
+
+## Script
+
+```
+docker image build -t react-example-image:latest .
+docker run -dp 8000:3000 --name react-example-container react-docker:latest
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
